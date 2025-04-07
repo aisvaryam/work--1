@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stinky Pete's Pirate Tavern</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            color: #330000;
+            background-color: #00BFFF;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: #ccaa66;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        #container {
+            display: flex;
+            min-height: calc(100vh - 150px);
+        }
+
+        #nav {
+            background-color: #E5D882;
+            width: 200px;
+            padding: 20px;
+        }
+
+        #nav a {
+            display: block;
+            padding: 8px 0;
+            text-decoration: none;
+            color: #330000;
+            font-weight: bold;
+        }
+
+        #nav a:hover {
+            color: #cc0000;
+        }
+
+        #content {
+            background-color: #f1e8b0;
+            flex: 1;
+            padding: 20px;
+        }
+
+        #footer {
+            background-color: #ccaa66;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.8em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li:before {
+            content: "• ";
+        }
+
+        .contact {
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">Stinky Pete's Pirate Tavern</div>
+    
+    <div id="container">
+        <div id="nav">
+            <a href="#">Home</a>
+            <a href="#">Grog</a>
+            <a href="#">Shanties</a>
+            <a href="#">Become a swab</a>
+        </div>
+        
+        <div id="content">
+            <p>Avast maties! Here ye'll be findin' all these delights...</p>
+            <ul>
+                <li>Great grog</li>
+                <li>All the rum you can drink</li>
+                <li>Good honest pirate fare like weevily biscuits and stewed rat</li>
+                <li>Wenches and swabs for every taste</li>
+                <li>Salty seadogs singin' shanties</li>
+                <li>...</li>
+            </ul>
+            
+            <div class="contact">
+                Berth 23<br>
+                Nottingham Docks<br>
+                0115 9324567
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">
+        Copyright © 2011 Stinky Pete's Pirate Tavern<br>
+        stinkypete@arrrr.com
+    </div>
+</body>
+</html>

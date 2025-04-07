@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+  .container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+  }
+
+
+  .col1 { position: absolute; left: 0; width: 200px; }
+  .col2 { position: absolute; left: 200px; width: 200px; }
+  .col3 { position: absolute; left: 400px; width: 200px; }
+
+
+  .header { position: absolute; top: 0; height: 30px; font-weight: bold; }
+  .row1 { position: absolute; top: 30px; height: 150px; }
+  .row2 { position: absolute; top: 180px; height: 150px; }
+
+
+  .col1, .col2, .col3 { border-right: 1px solid black; }
+  .header { border-bottom: 1px solid black; }
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- Column Headers -->
+  <div class="col1 header">Column 1</div>
+  <div class="col2 header">Column 2</div>
+  <div class="col3 header">Column 3</div>
+
+  <!-- Row 1 Content -->
+  <div class="col1 row1">
+    A numbered list:<br>
+    1. Able<br>
+    2. Baker<br>
+    3. Charlie<br>
+    4. Delta<br>
+    5. Echo
+  </div>
+  <div class="col2 row1">
+    B<br>
+    An unnumbered list:<br>
+    • Pounds<br>
+    • Dollars<br>
+    • Euro<br>
+    • Yen<br>
+    • Roubles
+  </div>
+  <div class="col3 row1">C</div>
+
+  <!-- Row 2 Content would go here if needed -->
+</div>
+</body>
+</html>
